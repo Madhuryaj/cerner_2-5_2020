@@ -7,7 +7,6 @@ mixer.music.play() #"cerner_2^5_2020"
 while True:# infinite loop
     print("Press \nP to Pause\nR to Resume\nE to exit the program")
     user_input_query = input(" ")
-
     if user_input_query == 'P':
         mixer.music.pause()
     elif user_input_query == 'R':
